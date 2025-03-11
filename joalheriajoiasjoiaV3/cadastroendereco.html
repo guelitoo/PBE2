@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Cadastro do Endereço - Joalheria</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Cadastro do Endereço</h2>
+        <form id="cadastroEndereco">
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" name="cep" required maxlength="9" placeholder="12345-678">
+
+            <label for="rua">Rua:</label>
+            <input type="text" id="rua" name="rua" readonly>
+
+            <label for="numero">Número:</label>
+            <input type="tel" id="numero" name="numero" maxlength="1000" required placeholder="1234">
+
+			<label for="complemento">Complemento:</label>
+			<input type="complemento" id="complemento" name="complemento" maxlength="200">
+
+            <label for="bairro">Bairro:</label>
+            <input type="bairro" id="bairro" name="bairro" readonly>
+			
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" readonly>
+
+            <label for="estado">Estado:</label>
+            <select id="estado" name="estado">
+                <option value="">Selecione...</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+            
+
+            <button type="submit">Cadastrar Endereço</button>
+        </form>
+    </div>
+    <script src="cadastroEndereco.js"></script>
+</body>
+</html>

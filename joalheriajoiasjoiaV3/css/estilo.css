@@ -1,0 +1,75 @@
+body {
+    background: url(./images/background.jpg);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(53, 58, 83);
+    border: 1px solid aliceblue;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.352);
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    color: aliceblue;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color:aliceblue;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="bairro"],
+input[type="complemento"],
+select{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+button{
+    width: 100%;
+    border-radius: 50px;
+    border: 2px solid #238d37;
+    background-color: #238d37;
+    color: #f8f8f8;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 15px;
+}
+button:hover{
+    border: 2px solid #33c048;
+    background-color: #33c048;
+    color: aliceblue;
+}
