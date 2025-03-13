@@ -1,22 +1,29 @@
 /* styles.css */
+
+.color1 {color: #091a0e;}
+.color2 {color: #253628;}
+.color3 {color: #485a52;}
+.color4 {color: #7c8d6f;}
+.color5 {color: #bbc3a2;}
 body {
-    font-family: 'Playfair Display', serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
-    color: #333;
+    background-color:#232c24;
+    color: #253628;
 }
 
 header {
-    background-color: #1c1c1c;
-    color: #209b99;
+    
+    font-style:italic !important;
+    background-color:#868c8e;
+    color: #eeeeeefc;
     padding: 20px;
     text-align: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 40px;
-    border-bottom: 3px solid #0407a4;
+    border-bottom: 3px solid #000000;
 }
 
 h1 {
@@ -32,29 +39,34 @@ nav {
 }
 
 .btn {
-    background-color: #002561c0;
-    color: #c3c9f1;
+    background-color: #868c8e;
+    color: #000000  ;
     border: none;
-    padding: 12px 24px;
     cursor: pointer;
-    border-radius: 30px;
     font-size: 16px;
-    font-weight: bold;
     transition: all 0.3s ease;
 }
 
 .btn:hover {
-    background-color: #0a4556;
+    color: #fff;
+    background-color: #868c8e;
     transform: scale(1.05);
 }
 
-.banner {
-    background: url('/img/home.jpg') center/cover no-repeat;
-    height: 500px;
+.logo{
+
+    height: auto;
+    width: auto;
     display: flex;
     flex-direction: column;
+
+}
+
+.banner {
+
+    background-color:#d3d1c9;
     justify-content:flex-end;
-    align-items:flex-end;
+    align-items:self-start;
     text-align:end; 
     color: white;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
@@ -62,8 +74,9 @@ nav {
 }
 
 .banner h2 {
-    align-items: center;
-    font-size: 42px;
+    
+    align-items:self-start!important;
+    font-size: 30px;
     margin: 0;
     font-weight: bold;
 }
@@ -96,11 +109,11 @@ nav {
 
 footer {
     background-color: #1c1c1c;
-    color: #d4af37;
+    color: #ffffff;
     text-align: center;
     padding: 15px;
     margin-top: 40px;
     font-size: 14px;
     letter-spacing: 1px;
-    border-top: 3px solid #d4af37;
+    border-top: 3px solid #b17991;
 }
